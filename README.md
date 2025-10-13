@@ -36,13 +36,13 @@ Part 1 focuses on designing and stubbing a **PID controller** class using Test-D
 
 This project implements a **PID controller** in modern C++ demonstrating professional software engineering practices:
 
-1. **Modern C++ Features**: Pimpl idiom, Rule of Five, move semantics, exception handling, and RAII with `std::unique_ptr`.
+1. **Modern C++ Features**: Pimpl idiom, move semantics, exception handling, and RAII with `std::unique_ptr`.
 
 2. **Test-Driven Development**: Comprehensive GoogleTest suite written before implementation with high coverage tracked via Codecov.
 
 3. **Collaborative Development**: Pair programming with role rotation and GitHub pull request code reviews.
 
-4. **Professional Tooling**: CMake, Doxygen, clang-format, cppcheck, and Valgrind integration.
+4. **Professional Tooling**: CMake, Doxygen, clang-format and cppcheck.
 
 5. **CI/CD Pipeline**: Automated testing and coverage reporting using GitHub Actions.
 
