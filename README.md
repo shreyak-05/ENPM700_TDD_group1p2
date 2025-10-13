@@ -32,14 +32,14 @@ Part 1 focuses on designing and stubbing a **PID controller** class using Test-D
     - Tests verify both **PID functionality** and **modern C++ compliance**.
     - Updated `CMakeLists.txt` to compile and link new test files.
 
-    ### Test Coverage Overview
-    | **#** | **Test Name** | **Purpose** | **Expected Behavior** |
-    |:----:|:---------------|:------------|:----------------------|
-    | 1 | `SanityCheck` | Verifies correct proportional, integral, and derivative output. | Output \approx 12.02 |
-    | 2 | `OutputClamping` | Ensures output is clamped within min/max limits using `std::clamp`. | Output \leq 10.0, \geq -10.0 |
-    | 3 | `ZeroError` | Confirms zero error yields zero control output. | Output = 0.0 |
-    | 4 | `InvalidConstructorParameters` | Checks proper exception handling for invalid parameters (`dt \leq 0`, `max < min`). | Throws `std::invalid_argument` |
-    | 5 | `MoveSemantics` | Validates move constructor and move assignment. | Old instance invalidated, new instance valid |
+## Test Coverage Overview
+| **#** | **Test Name** | **Purpose** | **Expected Behavior** |
+|:----:|:---------------|:------------|:----------------------|
+| 1 | `SanityCheck` | Verifies correct proportional, integral, and derivative output. | Output \approx 12.02 |
+| 2 | `OutputClamping` | Ensures output is clamped within min/max limits using `std::clamp`. | Output \leq 10.0, \geq -10.0 |
+| 3 | `ZeroError` | Confirms zero error yields zero control output. | Output = 0.0 |
+| 4 | `InvalidConstructorParameters` | Checks proper exception handling for invalid parameters (`dt \leq 0`, `max < min`). | Throws `std::invalid_argument` |
+| 5 | `MoveSemantics` | Validates move constructor and move assignment. | Old instance invalidated, new instance valid |
 
 ## Build Files
 
