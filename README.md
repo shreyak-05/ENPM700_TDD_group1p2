@@ -27,11 +27,6 @@ Part 1 focuses on designing and stubbing a **PID controller** class using Test-D
 ## UML Diagram
 ![Class Diagram](docs/structure.png)
 
-## Unit Testing
-- Implemented **five comprehensive GoogleTest cases** for the `PID` controller class.  
-- Tests verify both **PID functionality** and **modern C++ compliance**.  
-- Updated `CMakeLists.txt` to compile and link new test files.
-
 ## Key Features & Implementation
 
 This project implements a **PID controller** in modern C++ demonstrating professional software engineering practices:
@@ -45,6 +40,11 @@ This project implements a **PID controller** in modern C++ demonstrating profess
 4. **Professional Tooling**: CMake, Doxygen, clang-format and cppcheck.
 
 5. **CI/CD Pipeline**: Automated testing and coverage reporting using GitHub Actions.
+
+## Unit Testing
+- Implemented **five comprehensive GoogleTest cases** for the `PID` controller class.  
+- Tests verify both **PID functionality** and **modern C++ compliance**.  
+- Updated `CMakeLists.txt` to compile and link new test files.
 
 ### Test Coverage Overview
 | # | **Test Name** | **Purpose** | **Expected Behavior** |
