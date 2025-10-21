@@ -27,6 +27,8 @@ Part 1 focuses on designing and stubbing a **PID controller** class using Test-D
 ## UML Diagram
 ![Class Diagram](docs/structure.png)
 
+![Activity Diagram](docs/Activity_Diagram.png)
+
 ## Key Features & Implementation
 
 This project implements a **PID controller** in modern C++ demonstrating professional software engineering practices:
